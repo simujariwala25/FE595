@@ -12,6 +12,10 @@ def func1():
     plt.title('Plot of sine & cosine')
     plt.legend(['sin(x)', 'cos(x)'])
     plt.show()
+plt.ylim(-3,3)
 
+plt.plot(x, np.tan(x))
+plt.show()
+# Good code 
 if __name__ == "__main__":
     func1()
